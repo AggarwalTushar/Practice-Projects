@@ -11,4 +11,4 @@ train_X_lr.csv, train_Y_lr.csv contains the corresponding data
 <h2>Note</h2>
 <ul><li>predict.py should take ‘test_X_lepath’ as a command line argument and generate ‘predicted_test_Y_lr.csv’ (name
 of the le is case sensitive) in the same folder where the ‘predict.py’ le is present.</li>
-<li>WEIGHTS_FILE.csv contains the calculated weights after training the model.<li></ul>
+<li>WEIGHTS_FILE.csv contains the calculated weights after training the model.</li></ul>
