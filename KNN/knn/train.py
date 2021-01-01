@@ -60,5 +60,3 @@ def get_best_k_using_validation_set(train_X, train_Y, validation_split_percent,n
 if __name__=="__main__":
 	x,y=import_data()
 	print("Best k value: "+str(get_best_k_using_validation_set(x, y, 50,len(x[0]))))
-
-
