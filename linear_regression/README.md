@@ -9,6 +9,5 @@ duration of membership,time spent on app and session duration along with
 the yearly amount spent on them</p>
 train_X_lr.csv, train_Y_lr.csv contains the corresponding data
 <h2>Note</h2>
-<ul><li>predict.py should take ‘test_X_lepath’ as a command line argument and generate ‘predicted_test_Y_lr.csv’ (name
-of the le is case sensitive) in the same folder where the ‘predict.py’ le is present.</li>
+<ul><li>predict.py should take ‘test_X_path’ as a command line argument and generate ‘predicted_test_Y_lr.csv’ in the same folder where the ‘predict.py’ is present.</li>
 <li>WEIGHTS_FILE.csv contains the calculated weights after training the model.</li></ul>
