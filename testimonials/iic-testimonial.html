@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href = "iic-testimonial.css"></link>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <img src="https://iitgoa.ac.in/img/iit-goa-logo.svg" class="iitgoa-logo" id="iitgoa-logo" />
+                    <img src="https://iic-iitgoa.herokuapp.com/static/media/iiclogo.8c5058e9.svg" class="iic-logo" id="iic-logo" />
+                </div>
+                <img src="https://iic-iitgoa.herokuapp.com/static/media/menu.a3357bf5.svg" class="ml-auto mr-2" id="nav-img" style="cursor: pointer;" />
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <h1 class="heading pb-5 pt-3">STUDENT TESTIMONIAL</h1>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="testimonial-card shadow">
+                        <div class="text-center">
+                            <img src="https://img.etimg.com/thumb/msid-50318894,width-650,imgsize-337990,,resizemode-4,quality-100/.jpg" class="profile" />
+                            <h2 class="name">Sundar Pichai</h2>
+                            <p class="branch">Mathematics and Computing, 2023</p>
+                            <p class="job-description">CEO of Google & Alphabet </p>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-12 col-md-10">
+                                    <div class="story shadow">
+                                        <i class="fas fa-quote-left quote mr-auto"></i>
+                                        <p class="ml-4">Pichai Sundararajan, better known as Sundar Pichai, is an Indian-American business executive.
+                                            He is the chief executive officer of Alphabet Inc. and its subsidiary Google.
+                                            Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.
+                                            Pichai Sundararajan, better known as Sundar Pichai, is an Indian-American business executive.
+                                            He is the chief executive officer of Alphabet Inc. and its subsidiary Google.
+                                            Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.
+                                            Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.
+                                            Pichai Sundararajan, better known as Sundar Pichai, is an Indian-American business executive.
+                                            He is the chief executive officer of Alphabet Inc. and its subsidiary Google.
+                                            Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.
+                                        </p>
+
+                                    </div>
+                                    <div class="d-flex flex-row justify-content-center pb-2 mt-3">
+                                        <i class="fab fa-linkedin logo-linkedin"></i>
+                                        <img src="https://www.transparentpng.com/thumb/logo-instagram/quRQY6-logo-instagram-clipart-photos.png" alt="Logo Instagram Clipart Photos @transparentpng.com" class="logo-insta ml-3">
+                                        <i class="fab fa-facebook-f logo-fb ml-3"></i>
+                                        <i class="fab fa-twitter logo-twitter ml-3"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="far fa-thumbs-up like-icon" id="likeBtn"></i>
+                        <i class="fas fa-thumbs-up like-icon d-none" id="liked"></i>
+                        <i class="far fa-thumbs-down dislike-icon ml-5" id="dislikeBtn"></i>
+                        <i class="fas fa-thumbs-down dislike-icon d-none ml-5" id="disliked"></i>
+                        <i class="far fa-comment comment-icon ml-5" id="commentBtn" data-toggle="modal" data-target="#exampleModal2"></i>
+
+                        <i class="far fa-share-square share-icon ml-5" id="shareIcon" data-toggle="modal" data-target="#exampleModal"></i>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Share to</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex flex-row justify-content-center pb-2 mt-3">
+                                            <a href="whatsapp://send?text=This is WhatsApp sharing example using link" data-action="share/whatsapp/share" target="_blank"> <i class="fab fa-whatsapp logo-whatsapp"></i> </a>
+                                            <a href="https://www.linkedin.com/shareArticle?url=none" data-action="share/linkedin/share" target="_blank"><i class="fab fa-linkedin logo-linkedin ml-3"></i></a>
+                                            <a href="https://www.instagram.com/share" data-action="share/instagram/share" target="_blank">
+                                                <img src="https://www.transparentpng.com/thumb/logo-instagram/quRQY6-logo-instagram-clipart-photos.png" alt="Logo Instagram Clipart Photos @transparentpng.com" class="logo-insta ml-3">
+                                            </a>
+                                            <a href="https://www.facebook.com/sharer.php" data-action="share/facebook/share" target="_blank"><i class="fab fa-facebook-f logo-fb ml-3"></i></a>
+                                            <a href="https://twitter.com/intent/tweet?.." data-action="share/twitter/share" target="_blank"><i class="fab fa-twitter logo-twitter ml-3"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-8">
+                                <div class="headings d-flex justify-content-between align-items-center mb-3">
+                                    <h5>Total comments<span id="commentCounter">(4)</span></h5>
+                                    <div class="buttons">
+                                        <span class="badge shadow bg-white d-flex flex-row align-items-center">
+                                            <span class="text-primary">Show Comments</span>
+                                            <div class="form-check form-switch">
+                                                <label class="switch">
+                                                    <input type="checkbox" id="flexSwitchCheckChecked">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div id="comment-box-section" class="d-none">
+                                    <div id="inside-comment-box-section" class="d-flex flex-column">
+                                        <div class="card shadow p-3">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="user d-flex flex-row align-items-center">
+                                                    <img src="https://i.imgur.com/hczKIze.jpg" width="30" class="user-img rounded-circle mr-2">
+                                                    <span><small class="font-weight-bold text-primary">Rahul Mehra</small>
+                                                        <small class="font-weight-bold"><br />Hmm, This person is genius</small>
+                                                    </span>
+                                                </div>
+                                                <small>2 days ago</small>
+                                            </div>
+                                            <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                                <div class="reply px-4"> <small>Like</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Remove</small> </div>
+                                                <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i> <i class="fa fa-check-circle-o check-icon"></i> </div>
+                                            </div>
+                                        </div>
+                                        <div class="card shadow p-3 mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="user d-flex flex-row align-items-center">
+                                                    <img src="https://i.imgur.com/C4egmYM.jpg" width="30" class="user-img rounded-circle mr-2">
+                                                    <span><small class="font-weight-bold text-primary">Rohit Sharma</small>
+                                                        <small class="font-weight-bold"><br />Loving your work and profile! </small>
+                                                    </span>
+                                                </div>
+                                                <small>3 days ago</small>
+                                            </div>
+                                            <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                                <div class="reply px-4"> <small>Like</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Remove</small> </div>
+                                                <div class="icons align-items-center"> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
+                                            </div>
+                                        </div>
+                                        <div class="card shadow p-3 mt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="user d-flex flex-row align-items-center">
+                                                    <img src="https://i.imgur.com/0LKZQYM.jpg" width="30" class="user-img rounded-circle mr-2">
+                                                    <span><small class="font-weight-bold text-primary">Rohan</small>
+                                                        <small class="font-weight-bold"><br />Really cool Which filter are you using? </small>
+                                                    </span>
+                                                </div>
+                                                <small>3 days ago</small>
+                                            </div>
+                                            <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                                <div class="reply px-4"> <small>Like</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Remove</small> </div>
+                                                <div class="icons align-items-center"> <i class="fa fa-star-o text-muted"></i> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
+                                            </div>
+                                        </div>
+                                        <div class="card shadow p-3 mt-2 mb-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="user d-flex flex-row align-items-center">
+                                                    <img src="https://i.imgur.com/ZSkeqnd.jpg" width="30" class="user-img rounded-circle mr-2">
+                                                    <span><small class="font-weight-bold text-primary">Samuel</small>
+                                                        <small class="font-weight-bold"><br />Thanks </small>
+                                                    </span>
+                                                </div>
+                                                <small>3 days ago</small>
+                                            </div>
+                                            <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                                <div class="reply px-4"> <small>Like</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Remove</small> </div>
+                                                <div class="icons align-items-center"> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="iic-testimonial.js"></script>
+</body>
+
+</html>

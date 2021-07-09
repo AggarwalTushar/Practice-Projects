@@ -1,0 +1,60 @@
+.blog-card1{
+    background-color: white;
+    padding: 30px;
+    height: 40vh;
+}
+.small-card-name {
+    font-family: 'Georgia';
+    font-weight: 500;
+    line-height: 2px;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #003049;
+}
+.link{
+    text-decoration: none;
+}
+
+.card {
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow-x: wrap;
+    background-color: #F0EBB3;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+.heading{
+    font-family: "Georgia";
+    color: #003049;
+}
+.checked {
+    color: orange;
+  }
+  .card1{
+    padding: 30px;
+    overflow-x: wrap;
+    background-color: #F0EBB3;
+  }
+  .recent{
+    margin-left: 70px;
+    padding: 30px;
+    border-radius: 30px;
+    overflow-x: wrap;
+    background-color: #F0EBB3;
+    padding-bottom: 15px;
+  }
+  .card2{
+    padding: 30px;
+    overflow-x: wrap;
+    background-color: #F0EBB3;
+  }
+  .heading-small{
+    font-family: "Georgia";
+    color: #003049;
+    font-size: 25px;
+  }

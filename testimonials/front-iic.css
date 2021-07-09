@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media only screen and (min-width: 600px) {
+    body {
+        zoom: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #iitgoa-logo {
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #iic-logo {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        zoom: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #heading1 {
+        font-size: 40px;
+        color: #003049;
+        text-align: center;
+        font-family: "Sans-Serif";
+        font-weight: 300;
+        margin-top: 10px;
+    }
+}
+
+
+.iitgoa-logo {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.iic-logo {
+    width: 180px;
+    margin-top: 8px;
+}
+
+.heading {
+    color: #003049;
+    text-align: center;
+    font-family: "Sans-Serif";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.bg {
+    /*background-color: #ffd69a; */
+    /*background-color: #bdd5ea; */
+    background-size: cover;
+    height: 100%;
+    background: hsla(201, 100%, 14%, 1);
+
+    background: linear-gradient(135deg, hsla(201, 100%, 14%, 1) 0%, hsla(208, 52%, 83%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(201, 100%, 14%, 1) 0%, hsla(208, 52%, 83%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(201, 100%, 14%, 1) 0%, hsla(208, 52%, 83%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#003049", endColorstr="#BDD5EA", GradientType=1);
+}
+
+.small-card {
+    background-color: white;
+}
+
+.small-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+    border: solid 5px #A6A57A;
+}
+
+.small-card-name {
+    font-family: 'Georgia';
+    font-weight: 500;
+    line-height: 2px;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #003049;
+}
+
+.icon {
+    background-color: #003049;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 30px;
+}
+
+.logo-linkedin {
+    font-size: 30px;
+    color: #0077b5;
+    cursor: pointer;
+}
+
+.logo-insta {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.logo-fb {
+    font-size: 30px;
+    color: #4267B2;
+    cursor: pointer;
+}
+
+.logo-twitter {
+    font-size: 30px;
+    color: #00acee;
+    cursor: pointer;
+}
+
+.college-name {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: "Georgia";
+    font-weight: 300;
+    color: #003049;
+}
+
+.card {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: auto;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.read-more {
+    cursor: pointer;
+}
+
+.job-description-front {
+    font-family: "Georgia";
+    line-height: 2px;
+}
